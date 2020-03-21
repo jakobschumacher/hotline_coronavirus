@@ -1,0 +1,14 @@
+---
+layout: post
+title: Hotline Datenaufnahme
+date: 2020-03-21 08:00:00 +0200
+description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+img: hotline.jpg # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [Eingabe] # add tag
+---
+
+<div class="cognito">
+<script src="https://services.cognitoforms.com/s/qvH64gJwdEmt2b3lzPfBVw"></script>
+<script>Cognito.load("forms", { id: "1" });</script>
+</div>

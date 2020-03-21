@@ -1,0 +1,9 @@
+---
+layout: post
+title: Laborbefunde
+date: 2020-03-21 08:0:00 +0400
+description: Laborbefundeingang # Add post description (optional)
+img: lab.jpg # Add image post (optional)
+tags: [Eingabe] # add tag
+---
+
