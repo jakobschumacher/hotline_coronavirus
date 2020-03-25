@@ -14,6 +14,11 @@ Die Gesundheitsämter loggen sich ein. Es gibt ein Suchfeld. In das Suchfeld gib
 Siehe Variante Hotline. Wir erstellen ein eigene Mini-Software
 
 # Variante C
-SORMAS 
-Go2Data
-SurvNet
+Verbindung zu einer bereits existierenden Software
+* SORMAS 
+* Go2Data
+* SurvNet
+
+# Variante D
+Variante komplett ohne Gesundheitsämter
+Corona Tracing App schickt Push Nachrichten, wenn ein Nutzer eingibt, dass der positiv ist und wann er erkrankt ist.
