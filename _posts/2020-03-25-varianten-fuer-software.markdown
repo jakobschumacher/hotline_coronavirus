@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Abstrichmanagement 
+title: Varianten für CGA App
 date: 2020-03-21 08:00:00 +0300
 description: Hintergrundwissen zu Infektionsepidemiolgoie zu Sars-Cov-2 # Add post description (optional)
 img: swab.jpg # Add image post (optional)
@@ -8,10 +8,10 @@ fig-caption: # Add figcaption (optional)
 tags: [Eingabe]
 ---
 # Variante A
-Die Gesundheitsämter loggen sich ein. Es gibt ein Suchfeld. In das Suchfeld gibt am die TAN des Covid-Falls an.
+Die Gesundheitsämter loggen sich ein. Es gibt ein Suchfeld. In das Suchfeld gibt am die TAN des Covid-Falls an. Es erscheinen die Kontakte (Name, Telefonnummer, Kontaktwert). Diese Informationen lassen sich nach Excel, SurvNet, Sormas exportieren.
 
 # Variante B
-Siehe Variante Hotline. Wir erstellen ein eigene Mini-Software
+Hotline Variante. Wir erstellen eine Eingabemaske für mehrere Daten, aus 
 
 # Variante C
 Verbindung zu einer bereits existierenden Software
@@ -20,5 +20,7 @@ Verbindung zu einer bereits existierenden Software
 * SurvNet
 
 # Variante D
-Variante komplett ohne Gesundheitsämter
-Corona Tracing App schickt Push Nachrichten, wenn ein Nutzer eingibt, dass der positiv ist und wann er erkrankt ist.
+Variante komplett ohne Gesundheitsämter. Ein Nutzer erkrankt und bekommt vom Labor eine Tan. Ein Nutzer kann diese Tan Corona Tracing App schickt Push Nachrichten, wenn ein Nutzer eingibt, dass der positiv ist und wann er erkrankt ist.
+
+# Variante E
+Wie Variante D mit verifizierter und nicht verifizierter Nachricht
