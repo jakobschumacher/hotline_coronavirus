@@ -8,10 +8,10 @@ fig-caption: # Add figcaption (optional)
 tags: [Eingabe]
 ---
 # Variante A
-Die Gesundheitsämter loggen sich ein. Es gibt ein Suchfeld. In das Suchfeld gibt am die TAN des Covid-Falls an. Es erscheinen die Kontakte (Name, Telefonnummer, Kontaktwert). Diese Informationen lassen sich nach Excel, SurvNet, Sormas exportieren.
+Browser basierte Variante. Die Gesundheitsämter loggen sich ein. Es gibt ein Suchfeld. In das Suchfeld gibt am die TAN des Covid-Falls an. Es erscheinen die Kontakte (UserID oder Alternativ: Name, Telefonnummer, Kontaktwert = Berechnung der Software). Diese Informationen lassen sich nach Excel, SurvNet, Sormas exportieren.
 
 # Variante B
-Hotline Variante. Wir erstellen eine Eingabemaske für mehrere Daten, aus 
+Browser basierte Variante. Hotline Variante. Wir erstellen eine Eingabemaske für mehrere Daten Siehe Hotline.
 
 # Variante C
 Verbindung zu einer bereits existierenden Software
