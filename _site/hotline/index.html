@@ -72,6 +72,8 @@
 	<link rel="stylesheet" href="/lagezentrum-coronavirus/assets/fonts/font-awesome/css/font-awesome.min.css">
 	<!-- Styles -->
 	<link rel="stylesheet" href="/lagezentrum-coronavirus/assets/css/main.css">
+	<script src="https://cdn.jsdelivr.net/npm/mermaid@8.4.0/dist/mermaid.min.js"></script>
+	
 </head>
 
 <body>
@@ -84,7 +86,7 @@
         <a href="/lagezentrum-coronavirus/"><img src="/lagezentrum-coronavirus/assets/img/mascperson.jpg" alt="Lagezentrum Coronavirus Reinickendorf"></a>
       </div>
       <div class="author-name">Lagezentrum Coronavirus Reinickendorf</div>
-      <p>Schulungsseite für das Lagezentrum Coronavirus des Bezirksamtes Reinickendorf.</p>
+      <p>Lagezentrum Coronavirus des Bezirksamtes Reinickendorf.</p>
     </div>
   </header> <!-- End Header -->
   <footer>
@@ -151,4 +153,16 @@
 </script> <!-- End Analytics -->
 
 </body>
+<script>
+var config = {
+    startOnLoad:true,
+    theme: 'forest',
+    flowchart:{
+            useMaxWidth:false,
+            htmlLabels:true
+        }
+};
+mermaid.initialize(config);
+window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+</script>
 </html>

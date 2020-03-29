@@ -1,0 +1,20 @@
+I"6<h1 id="variante-a">Variante A</h1>
+<p>Browser basierte Variante. Die Gesundheitsämter loggen sich ein. Es gibt ein Suchfeld. In das Suchfeld gibt am die TAN des Covid-Falls an. Es erscheinen die Kontakte (UserID oder Alternativ: Name, Telefonnummer, Kontaktwert = Berechnung der Software). Diese Informationen lassen sich nach Excel, SurvNet, Sormas exportieren.</p>
+
+<h1 id="variante-b">Variante B</h1>
+<p>Browser basierte Variante. Hotline Variante. Wir erstellen eine Eingabemaske für mehrere Daten Siehe Hotline.</p>
+
+<h1 id="variante-c">Variante C</h1>
+<p>Verbindung zu einer bereits existierenden Software</p>
+<ul>
+  <li>SORMAS</li>
+  <li>Go2Data</li>
+  <li>SurvNet</li>
+</ul>
+
+<h1 id="variante-d">Variante D</h1>
+<p>Variante komplett ohne Gesundheitsämter. Ein Nutzer erkrankt und bekommt vom Labor eine Tan. Ein Nutzer kann diese Tan Corona Tracing App schickt Push Nachrichten, wenn ein Nutzer eingibt, dass der positiv ist und wann er erkrankt ist.</p>
+
+<h1 id="variante-e">Variante E</h1>
+<p>Wie Variante D mit verifizierter und nicht verifizierter Nachricht</p>
+:ET

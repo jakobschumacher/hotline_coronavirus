@@ -1,0 +1,15 @@
+I"b<h1 id="getting-notified-about-contact-if-neither-labs-nor-health-authority-participates">Getting notified about contact if neither labs nor health authority participates</h1>
+<div class="mermaid">
+graph TD
+     Q[Lab makes test]--&gt;W[Information is send to Health authority]
+     Q--&gt;E[Information is send to physician]
+     W--&gt;R[Covid-patient gets informed]
+     E--&gt;R
+     R--&gt;T[Covid-patient enters: "I have covid"]
+     T--&gt;A[User gets notification: "You have been in contact, Risk 24%]
+     A--&gt;C[Please stay at home]
+     D[Health authority gets contact information from ]
+
+
+</div>
+:ET

@@ -1,0 +1,32 @@
+I"Þ<h1 id="base-variant">Base variant</h1>
+<p>Neither labs nor health authority participates</p>
+
+<div class="mermaid">
+graph TD
+     1[Lab identifies covid-patient]
+     2[Fax to Health authority]
+     3[Covid-patient gets notified by lab]
+     4[Software-info to physician]
+     1--&gt;2
+     1--&gt;3
+     1--&gt;4
+     5[Health authority contacts covid-patient]
+     6[Covid-patient enters I have covid]
+     7[Physicians informs patient]
+     2--&gt;5
+     3--&gt;6
+     4--&gt;7
+     7--&gt;6
+     6--&gt;8A[Contact A]
+     6--&gt;8B[Contact B]
+     6--&gt;8C[Contact C]
+     6--&gt;8D[Contact D]
+     6--&gt;8E[Contact E]
+     5--&gt;9[Covid-patient remembers contacts A,B,C]
+     9--&gt;8A
+     9--&gt;8B
+     9--&gt;8C
+
+
+</div>
+:ET

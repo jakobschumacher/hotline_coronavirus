@@ -65,6 +65,8 @@
 	<link rel="stylesheet" href="/lagezentrum-coronavirus/assets/fonts/font-awesome/css/font-awesome.min.css">
 	<!-- Styles -->
 	<link rel="stylesheet" href="/lagezentrum-coronavirus/assets/css/main.css">
+	<script src="https://cdn.jsdelivr.net/npm/mermaid@8.4.0/dist/mermaid.min.js"></script>
+	
 </head>
 
 <body>
@@ -77,7 +79,7 @@
         <a href="/lagezentrum-coronavirus/"><img src="/lagezentrum-coronavirus/assets/img/mascperson.jpg" alt="Lagezentrum Coronavirus Reinickendorf"></a>
       </div>
       <div class="author-name">Lagezentrum Coronavirus Reinickendorf</div>
-      <p>Schulungsseite für das Lagezentrum Coronavirus des Bezirksamtes Reinickendorf.</p>
+      <p>Lagezentrum Coronavirus des Bezirksamtes Reinickendorf.</p>
     </div>
   </header> <!-- End Header -->
   <footer>
@@ -99,9 +101,7 @@
   <ul class="tags">
 <!--  cycles through tag list and creates header row of all tags used in site with accompanying per-tag counts...-->
   
-    <li ><a href="#Eingabe" class="tag">Eingabe <span>(4)</span></a></li>
-  
-    <li ><a href="#%C3%9Cberblick" class="tag">Überblick <span>(2)</span></a></li>
+    <li ><a href="#Eingabe" class="tag">Eingabe <span>(3)</span></a></li>
   
   </ul>
 <!--cycles through tag list and creates subheader for each tag name...-->
@@ -115,31 +115,12 @@
     </div>
     
     <div class="tag-list">
-        <span><a href="/lagezentrum-coronavirus/abstrichmanagement/">Abstrichmanagement</a></span>
+        <span><a href="/lagezentrum-coronavirus/user-journey/">Sequence (draft)</a></span>
         <small><span>| 21 Mar 2020</span></small>
     </div>
     
     <div class="tag-list">
-        <span><a href="/lagezentrum-coronavirus/lab/">Laborbefunde</a></span>
-        <small><span>| 21 Mar 2020</span></small>
-    </div>
-    
-    <div class="tag-list">
-        <span><a href="/lagezentrum-coronavirus/faq/">Interne Fragen und Antworten</a></span>
-        <small><span>| 21 Mar 2020</span></small>
-    </div>
-    
-  
-  <h2 id="%C3%9Cberblick">Überblick</h2>
-<!--  lists all posts corresponding to specific tag...-->
-    
-    <div class="tag-list">
-        <span><a href="/lagezentrum-coronavirus/infektionsepidemiologie/">Begrüßung und Schulung</a></span>
-        <small><span>| 21 Mar 2020</span></small>
-    </div>
-    
-    <div class="tag-list">
-        <span><a href="/lagezentrum-coronavirus/bereiche/">Überblick über die Bereiche</a></span>
+        <span><a href="/lagezentrum-coronavirus/varianten-fuer-software/">Varianten für CGA App</a></span>
         <small><span>| 21 Mar 2020</span></small>
     </div>
     
@@ -160,4 +141,16 @@
 </script> <!-- End Analytics -->
 
 </body>
+<script>
+var config = {
+    startOnLoad:true,
+    theme: 'forest',
+    flowchart:{
+            useMaxWidth:false,
+            htmlLabels:true
+        }
+};
+mermaid.initialize(config);
+window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+</script>
 </html>

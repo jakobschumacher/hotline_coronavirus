@@ -65,6 +65,8 @@
 	<link rel="stylesheet" href="/lagezentrum-coronavirus/assets/fonts/font-awesome/css/font-awesome.min.css">
 	<!-- Styles -->
 	<link rel="stylesheet" href="/lagezentrum-coronavirus/assets/css/main.css">
+	<script src="https://cdn.jsdelivr.net/npm/mermaid@8.4.0/dist/mermaid.min.js"></script>
+	
 </head>
 
 <body>
@@ -77,7 +79,7 @@
         <a href="/lagezentrum-coronavirus/"><img src="/lagezentrum-coronavirus/assets/img/mascperson.jpg" alt="Lagezentrum Coronavirus Reinickendorf"></a>
       </div>
       <div class="author-name">Lagezentrum Coronavirus Reinickendorf</div>
-      <p>Schulungsseite für das Lagezentrum Coronavirus des Bezirksamtes Reinickendorf.</p>
+      <p>Lagezentrum Coronavirus des Bezirksamtes Reinickendorf.</p>
     </div>
   </header> <!-- End Header -->
   <footer>
@@ -92,19 +94,6 @@
 </aside> <!-- End Sidebar -->
 <div class="content-box clearfix">
   
-<article class="post">
-  
-    <a class="post-thumbnail" style="background-image: url(/lagezentrum-coronavirus/assets/img/graph.jpg)" href="/lagezentrum-coronavirus/infektionsepidemiologie/"></a>
-  
-  <div class="post-content">
-    <h2 class="post-title"><a href="/lagezentrum-coronavirus/infektionsepidemiologie/">Begrüßung und Schulung</a></h2>
-    <p>
-</p>
-    <span class="post-date">2020, Mar 21&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-    <span class="post-words">1 minute read</span>
-  </div>
-</article>
-
 <article class="post">
   
     <a class="post-thumbnail" style="background-image: url(/lagezentrum-coronavirus/assets/img/hotline.jpg)" href="/lagezentrum-coronavirus/hotline/"></a>
@@ -123,12 +112,11 @@
 
 <article class="post">
   
-    <a class="post-thumbnail" style="background-image: url(/lagezentrum-coronavirus/assets/img/swab.jpg)" href="/lagezentrum-coronavirus/abstrichmanagement/"></a>
+    <a class="post-thumbnail" style="background-image: url(/lagezentrum-coronavirus/assets/img/userjourney.jpg)" href="/lagezentrum-coronavirus/user-journey/"></a>
   
   <div class="post-content">
-    <h2 class="post-title"><a href="/lagezentrum-coronavirus/abstrichmanagement/">Abstrichmanagement</a></h2>
-    <p>
-</p>
+    <h2 class="post-title"><a href="/lagezentrum-coronavirus/user-journey/">Sequence (draft)</a></h2>
+    <p>Base variant Neither labs nor health authority participates graph TD 1[Lab identifies covid-patient] 2[Fax to...</p>
     <span class="post-date">2020, Mar 21&nbsp;&nbsp;&nbsp;—&nbsp;</span>
     <span class="post-words">1 minute read</span>
   </div>
@@ -136,39 +124,13 @@
 
 <article class="post">
   
-    <a class="post-thumbnail" style="background-image: url(/lagezentrum-coronavirus/assets/img/lab.jpg)" href="/lagezentrum-coronavirus/lab/"></a>
+    <a class="post-thumbnail" style="background-image: url(/lagezentrum-coronavirus/assets/img/swab.jpg)" href="/lagezentrum-coronavirus/varianten-fuer-software/"></a>
   
   <div class="post-content">
-    <h2 class="post-title"><a href="/lagezentrum-coronavirus/lab/">Laborbefunde</a></h2>
-    <p>
-</p>
+    <h2 class="post-title"><a href="/lagezentrum-coronavirus/varianten-fuer-software/">Varianten für CGA App</a></h2>
+    <p>Variante A Browser basierte Variante. Die Gesundheitsämter loggen sich ein. Es gibt ein Suchfeld. In...</p>
     <span class="post-date">2020, Mar 21&nbsp;&nbsp;&nbsp;—&nbsp;</span>
     <span class="post-words">1 minute read</span>
-  </div>
-</article>
-
-<article class="post">
-  
-    <a class="post-thumbnail" style="background-image: url(/lagezentrum-coronavirus/assets/img/question.jpg)" href="/lagezentrum-coronavirus/faq/"></a>
-  
-  <div class="post-content">
-    <h2 class="post-title"><a href="/lagezentrum-coronavirus/faq/">Interne Fragen und Antworten</a></h2>
-    <p>
-</p>
-    <span class="post-date">2020, Mar 21&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-    <span class="post-words">1 minute read</span>
-  </div>
-</article>
-
-<article class="post">
-  
-    <a class="post-thumbnail" style="background-image: url(/lagezentrum-coronavirus/assets/img/bereiche.jpg)" href="/lagezentrum-coronavirus/bereiche/"></a>
-  
-  <div class="post-content">
-    <h2 class="post-title"><a href="/lagezentrum-coronavirus/bereiche/">Überblick über die Bereiche</a></h2>
-    <p>Leitung Gesundheitsamt (90294 - ) Leitung und Organisation Gesundheitsamt Weiterentwicklung Lagezentrum Leitung und Organisation Lagezentrum...</p>
-    <span class="post-date">2020, Mar 21&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-    <span class="post-words">2 minute read</span>
   </div>
 </article>
 
@@ -200,4 +162,16 @@
 </script> <!-- End Analytics -->
 
 </body>
+<script>
+var config = {
+    startOnLoad:true,
+    theme: 'forest',
+    flowchart:{
+            useMaxWidth:false,
+            htmlLabels:true
+        }
+};
+mermaid.initialize(config);
+window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+</script>
 </html>
