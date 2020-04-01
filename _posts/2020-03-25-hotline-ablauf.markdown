@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Klärung der Zuständigkeit
 date: 2020-03-21 08:00:00 +0300
 description: Wer ist für welchen Sachverhalt zuständig? # Add post description (optional)

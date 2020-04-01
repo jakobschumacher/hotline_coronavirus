@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: Sequence (draft)
 date: 2020-03-21 08:00:00 +0300
 img: userjourney.jpg # Add image post (optional)
