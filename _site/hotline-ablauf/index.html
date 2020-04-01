@@ -2,37 +2,38 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Sequence (draft) - Lagezentrum Coronavirus Reinickendorf</title>
+	<title>Klärung der Zuständigkeit - Lagezentrum Coronavirus Reinickendorf</title>
 
   <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
 
     <meta content="Lagezentrum Coronavirus Reinickendorf" property="og:site_name">
   
-    <meta content="Sequence (draft)" property="og:title">
+    <meta content="Klärung der Zuständigkeit" property="og:title">
   
   
     <meta content="article" property="og:type">
   
   
-    <meta content="Hier wird das Lagezentrum Coronavirus des Bezirksamtes Reinickendorf beschrieben.
-" property="og:description">
+    <meta content="Wer ist für welchen Sachverhalt zuständig?" property="og:description">
   
   
-    <meta content="http://localhost:4000/user-journey/" property="og:url">
+    <meta content="http://localhost:4000/hotline-ablauf/" property="og:url">
   
   
     <meta content="2020-03-21T06:00:00+01:00" property="article:published_time">
     <meta content="http://localhost:4000/about/" property="article:author">
   
   
-    <meta content="http://localhost:4000https://jakiva.de/lagezentrum//assets/img/userjourney.jpg" property="og:image">
+    <meta content="http://localhost:4000https://jakiva.de/lagezentrum//assets/img/kaleidico-26MJGnCM0Wc-unsplash.jpg" property="og:image">
   
   
     
   
   
     
-    <meta content="Eingabe" property="article:tag">
+    <meta content="Hotline" property="article:tag">
+    
+    <meta content="Schulung" property="article:tag">
     
   
 
@@ -40,20 +41,19 @@
     <meta name="twitter:site" content="@">
     <meta name="twitter:creator" content="@">
   
-    <meta name="twitter:title" content="Sequence (draft)">
+    <meta name="twitter:title" content="Klärung der Zuständigkeit">
   
   
-    <meta name="twitter:url" content="http://localhost:4000/user-journey/">
+    <meta name="twitter:url" content="http://localhost:4000/hotline-ablauf/">
   
   
-    <meta name="twitter:description" content="Hier wird das Lagezentrum Coronavirus des Bezirksamtes Reinickendorf beschrieben.
-">
+    <meta name="twitter:description" content="Wer ist für welchen Sachverhalt zuständig?">
   
   
-    <meta name="twitter:image:src" content="http://localhost:4000https://jakiva.de/lagezentrum//assets/img/userjourney.jpg">
+    <meta name="twitter:image:src" content="http://localhost:4000https://jakiva.de/lagezentrum//assets/img/kaleidico-26MJGnCM0Wc-unsplash.jpg">
   
 
-	<meta name="description" content="">
+	<meta name="description" content="Wer ist für welchen Sachverhalt zuständig?">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta property="og:image" content="">
@@ -107,9 +107,9 @@
 
     <div class="page-cover-image">
       <figure>
-        <img class="page-image" src=https://jakiva.de/lagezentrum//assets/img/blankline.gif alt="Sequence (draft)">
+        <img class="page-image" src=https://jakiva.de/lagezentrum//assets/img/blankline.gif alt="Klärung der Zuständigkeit">
         
-          <figcaption>Photo by Mantas Hesthaven on Unsplash</figcaption>
+          <figcaption>Photo by Kaleidico on Unsplash# Add figcaption (optional)</figcaption>
         
       </figure>
     </div> 
@@ -117,52 +117,59 @@
     
     <div class="wrap-content">
       <header class="header-page">
-        <h1 class="page-title">Sequence (draft)</h1>
+        <h1 class="page-title">Klärung der Zuständigkeit</h1>
         <div class="page-date"><span>2020, Mar 21&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
       </header>
-      <h1 id="base-variant">Base variant</h1>
-<p>Neither labs nor health authority participates</p>
+      <p>Wer ist für welchen Sachverhalt zuständig?</p>
 
 <div class="mermaid">
 graph TD
-     1[Lab identifies covid-patient]
-     2[Fax to Health authority]
-     3[Covid-patient gets notified by lab]
-     4[Software-info to physician]
-     1--&gt;2
-     1--&gt;3
-     1--&gt;4
-     5[Health authority contacts covid-patient]
-     6[Covid-patient enters I have covid]
-     7[Physicians informs patient]
-     2--&gt;5
-     3--&gt;6
-     4--&gt;7
-     7--&gt;6
-     6--&gt;8A[Contact A]
-     6--&gt;8B[Contact B]
-     6--&gt;8C[Contact C]
-     6--&gt;8D[Contact D]
-     6--&gt;8E[Contact E]
-     5--&gt;9[Covid-patient remembers contacts A,B,C]
-     9--&gt;8A
-     9--&gt;8B
-     9--&gt;8C
-
-
+     1[Erfassung des Sachverhalts]
+     2a[Covid-Fall]
+     2b[Zuständigkeit Gesi<br />Weitergabe an 5030]
+     3a[Medizinisches Personal]
+     3b[Zuständigkeit Gesi<br />Weitergabe an 5030]
+     4a[Befund Auskunft]
+     4b[Zuständigkeit Fr. Sackschweski<br />Weitergabe an 5069]
+     5a[Anfrage nicht zu <br /> Coronavirus]
+     5b[Zuständigkeit GesSekr<br />Weitergabe an 5079]
+     6a[Anfrage zu <br />Unterbringung<br />Nahrungsmittel]
+     6b[Zuständigkeit Dudey<br /> Weitergabe an ]
+     7a[Anfrage zu Ehrenamtlicher Tätigkeit]
+     7b[Zuständigkeit <br />Ehrenamtsmangement <br /> Weitergabe an ]
+     8a[Eigene Zuständigkeit]
+     
+     
+     1--&gt;2a
+     2a--Ja--&gt;2b
+     2a--Nein--&gt;3a
+     3a--Ja--&gt;3b
+     3a--Nein--&gt;4a
+     4a--Ja--&gt;4b
+     4a--Nein--&gt;5a
+     5a--Ja--&gt;5b
+     5a--Nein--&gt;6a
+     6a--Ja--&gt;6b
+     6a--Nein--&gt;7a
+     7a--Ja--&gt;7b
+     7a--Nein--&gt;8a
+     
+     
 </div>
 
       <div class="page-footer">
   <!--      <div class="page-share">
-          <a href="https://twitter.com/intent/tweet?text=Sequence (draft)&url=http://localhost:4000/user-journey/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
-          <a href="https://facebook.com/sharer.php?u=http://localhost:4000/user-journey/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
-          <a href="https://plus.google.com/share?url=http://localhost:4000/user-journey/" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
+          <a href="https://twitter.com/intent/tweet?text=Klärung der Zuständigkeit&url=http://localhost:4000/hotline-ablauf/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
+          <a href="https://facebook.com/sharer.php?u=http://localhost:4000/hotline-ablauf/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
+          <a href="https://plus.google.com/share?url=http://localhost:4000/hotline-ablauf/" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
         </div>
         
       -->
         <div class="page-tag">
           
-            <a href="https://jakiva.de/lagezentrum//tags#Eingabe" class="tag">&#35; Eingabe</a>
+            <a href="https://jakiva.de/lagezentrum//tags#Hotline" class="tag">&#35; Hotline</a>
+          
+            <a href="https://jakiva.de/lagezentrum//tags#Schulung" class="tag">&#35; Schulung</a>
           
         </div>
       </div>

@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Passwortgeschuetzter Bereich"
+AuthUserFile .htpasswd
+Require valid-user

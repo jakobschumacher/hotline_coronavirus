@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4000/lagezentrum-coronavirus/sitemap.xml
+Sitemap: http://localhost:4000/https://jakiva.de/lagezentrum/sitemap.xml

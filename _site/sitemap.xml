@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/lagezentrum-coronavirus/varianten-fuer-software/</loc>
+<loc>http://localhost:4000/https://jakiva.de/lagezentrum/hotline-ablauf/</loc>
 <lastmod>2020-03-21T06:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/lagezentrum-coronavirus/user-journey/</loc>
+<loc>http://localhost:4000/https://jakiva.de/lagezentrum/varianten-fuer-software/</loc>
 <lastmod>2020-03-21T06:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/lagezentrum-coronavirus/hotline/</loc>
+<loc>http://localhost:4000/https://jakiva.de/lagezentrum/user-journey/</loc>
+<lastmod>2020-03-21T06:00:00+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/https://jakiva.de/lagezentrum/hotline/</loc>
 <lastmod>2020-03-21T07:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/lagezentrum-coronavirus/</loc>
+<loc>http://localhost:4000/https://jakiva.de/lagezentrum/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/lagezentrum-coronavirus/tags/</loc>
+<loc>http://localhost:4000/https://jakiva.de/lagezentrum/tags/</loc>
 </url>
 </urlset>
