@@ -9,10 +9,21 @@ Windows 10, Excel 2016, Outlook 2016. Eine Benutzung ist auch möglich mit Group
 
 ## Installation
 Download der Excel-Tabelle. Die Tabelle ist mit selbergeschreibenen Makros versehen. 
-In der Tabelle müssen die jeweiligen Pfade angepasst werden. Diese Pfade sind teilweise im VBA Code, teilweise im Tabellenblatt "Einstellung"
+In der Tabelle müssen die jeweiligen Pfade angepasst werden. Diese Pfade sind teilweise im VBA Code, teilweise im Tabellenblatt "Einstellung". Die Datei ist eine Vorlage, die in einem Ordner abgelegt werden kann. Jede Person öffnet also eine neue Instanz der Excel-Datei und speichert diese über eine spezielle Funktion in einem Ordner ab. 
 
 ## Sicherheit
 Diese Mini-Software ist bestenfalls im Alpha-Stadium und nicht von entsprechenden Sicherheitsexperten überprüft. Die selbstgeschriebenen Makros können fehlerhaft sein und zu Abstürzen, Datenverlust oder ähnlichem führen. Möglicherweise kann es zu anderen Sicherheitsproblemen kommen, die wir nicht erahnen. 
 
 ## Entwicklung
-Die Software befindet sich in aktiver Entwicklung. Fast täglich gibt es Verbesserungen. Eine Mitarbeit ist gerne gewünscht. 
+Die Software befindet sich in aktiver Entwicklung. Fast täglich gibt es Verbesserungen. Eine Mitarbeit ist gerne gewünscht. Aktuell wird versucht eine Datenbank zu hinterlegen. 
+
+# Alternative Software Tools
+Es gibt einige Softwareprojekte, die die Ausbruchsbekämpfung unterstützen. Es gibt viele Softwareprodukte, die in Entwicklung sind.
+
+## SurvNet/Octoware/ISGA usw.
+
+## Sormas
+
+## Go.Data
+
+
