@@ -5,26 +5,25 @@
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
-<html lang="en" class="no-js">
+<html lang="de" class="no-js">
   <head>
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>Begrüßung und Schulung - Lagezentrum Coronavirus Reinickendorf</title>
-<meta name="description" content="Hier wird das Lagezentrum Coronavirus des Bezirksamtes Reinickendorf beschrieben. ">
+<meta name="description" content="Lagezentrum Coronavirus des Bezirksamtes Reinickendorf ">
 
+
+  <meta name="author" content="Your Name">
 
 
 <meta property="og:type" content="website">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="de_DE">
 <meta property="og:site_name" content="Lagezentrum Coronavirus Reinickendorf">
 <meta property="og:title" content="Lagezentrum Coronavirus Reinickendorf">
-<meta property="og:url" content="http://localhost:4000/lagezentrum/">
+<meta property="og:url" content="http://localhost:4000/">
 
 
-  <meta property="og:description" content="Hier wird das Lagezentrum Coronavirus des Bezirksamtes Reinickendorf beschrieben. ">
-
-
-
+  <meta property="og:description" content="Lagezentrum Coronavirus des Bezirksamtes Reinickendorf ">
 
 
 
@@ -34,9 +33,18 @@
 
 
 
-<link rel="canonical" href="http://localhost:4000/lagezentrum/">
 
 
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/">
+
+
+
+  <link rel="next" href="http://localhost:4000/page2/">
 
 
 <script type="application/ld+json">
@@ -44,8 +52,8 @@
     "@context": "https://schema.org",
     
       "@type": "Person",
-      "name": null,
-      "url": "http://localhost:4000/lagezentrum/"
+      "name": "Jakob Schumacher",
+      "url": "http://localhost:4000/"
     
   }
 </script>
@@ -58,7 +66,7 @@
 <!-- end _includes/seo.html -->
 
 
-<link href="/lagezentrum/feed.xml" type="application/atom+xml" rel="alternate" title="Lagezentrum Coronavirus Reinickendorf Feed">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Lagezentrum Coronavirus Reinickendorf Feed">
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -68,7 +76,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="/lagezentrum/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/main.css">
 
 <!--[if IE]>
   <style>
@@ -85,6 +93,10 @@
   </style>
 <![endif]-->
 
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.8/mermaid.core.js"></script>
+  
 
 
     <!-- start custom head snippets -->
@@ -116,14 +128,16 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-        <a class="site-title" href="/lagezentrum/">
+        <a class="site-title" href="/">
           Lagezentrum Coronavirus Reinickendorf
           
         </a>
-        <ul class="visible-links"></ul>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/">Quick-Start Guide</a>
+            </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">Toggle menu</span>
+          <span class="visually-hidden">Menü ein-/ausschalten</span>
           <div class="navicon"></div>
         </button>
         <ul class="hidden-links hidden"></ul>
@@ -150,16 +164,39 @@
 
   <div class="author__content">
     
-      <h3 class="author__name" itemprop="name"></h3>
+      <h3 class="author__name" itemprop="name">Your Name</h3>
     
+    
+      <div class="author__bio" itemprop="description">
+        <p>I am an <strong>amazing</strong> person.</p>
+
+      </div>
     
   </div>
 
   <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
+    <button class="btn btn--inverse">Folgen</button>
     <ul class="author__urls social-icons">
       
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Somewhere</span>
+        </li>
+      
 
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
       
 
       
@@ -232,7 +269,7 @@
     
     
 
-<h3 class="archive__subtitle">Recent Posts</h3>
+<h3 class="archive__subtitle">Aktuelle Beiträge</h3>
 
 
 
@@ -246,7 +283,7 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/lagezentrum/infektionsepidemiologie/" rel="permalink">Begrüßung und Schulung
+        <a href="/infektionsepidemiologie/" rel="permalink">Begrüßung und Schulung
 </a>
       
     </h2>
@@ -266,7 +303,7 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/lagezentrum/hotline/" rel="permalink">Hotline Datenaufnahme
+        <a href="/hotline/" rel="permalink">Hotline Datenaufnahme
 </a>
       
     </h2>
@@ -289,14 +326,18 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/lagezentrum/user-journey/" rel="permalink">Sequence (draft)
+        <a href="/abstrichmanagement/" rel="permalink">Abstrichmanagement
 </a>
       
     </h2>
     
-    <p class="archive__item-excerpt" itemprop="description">Base variant
-Neither labs nor health authority participates
-</p>
+    <p class="archive__item-excerpt" itemprop="description">
+graph TD
+     1[Erfassung des Sachverhalts]
+     2a[Covid-Fall]
+     2b[Zuständigkeit GesiWeitergabe an 5030]
+     3a[Medizinisches Personal]
+     3b[Zustän...</p>
   </article>
 </div>
 
@@ -310,47 +351,7 @@ Neither labs nor health authority participates
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/lagezentrum/varianten-fuer-software/" rel="permalink">Varianten für CGA App
-</a>
-      
-    </h2>
-    
-    <p class="archive__item-excerpt" itemprop="description">Variante A
-Browser basierte Variante. Die Gesundheitsämter loggen sich ein. Es gibt ein Suchfeld. In das Suchfeld gibt am die TAN des Covid-Falls an. Es ersc...</p>
-  </article>
-</div>
-
-
-  
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/lagezentrum/hotline-ablauf/" rel="permalink">Klärung der Zuständigkeit
-</a>
-      
-    </h2>
-    
-    <p class="archive__item-excerpt" itemprop="description">Wer ist für welchen Sachverhalt zuständig?
-</p>
-  </article>
-</div>
-
-
-  
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/lagezentrum/abstrichmanagement/" rel="permalink">Abstrichmanagement
+        <a href="/lab/" rel="permalink">Laborbefunde
 </a>
       
     </h2>
@@ -370,7 +371,7 @@ Browser basierte Variante. Die Gesundheitsämter loggen sich ein. Es gibt ein Su
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/lagezentrum/lab/" rel="permalink">Laborbefunde
+        <a href="/faq/" rel="permalink">Interne Fragen und Antworten
 </a>
       
     </h2>
@@ -381,52 +382,43 @@ Browser basierte Variante. Die Gesundheitsämter loggen sich ein. Es gibt ein Su
 </div>
 
 
+
+
+<nav class="pagination">
   
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+  <ul>
     
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/lagezentrum/faq/" rel="permalink">Interne Fragen und Antworten
-</a>
-      
-    </h2>
     
-    <p class="archive__item-excerpt" itemprop="description">
-</p>
-  </article>
-</div>
-
-
-  
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    <li><a href="#" class="disabled"><span aria-hidden="true">Vorherige</span></a></li>
     
-    <h2 class="archive__item-title" itemprop="headline">
-      
-        <a href="/lagezentrum/bereiche/" rel="permalink">Überblick über die Bereiche
-</a>
-      
-    </h2>
+
     
-    <p class="archive__item-excerpt" itemprop="description">Leitung Gesundheitsamt (90294 - )
+    
+      <li><a href="#" class="disabled current">1</a></li>
+    
 
-  Leitung und Organisation Gesundheitsamt
-  Weiterentwicklung Lagezentrum
-  Leitung und Organisation Lagezentrum
+    
+    
 
-</p>
-  </article>
-</div>
+    
+    
+    
 
+    
 
+    
+    
 
+    
+      <li><a href="/page2/">2</a></li>
+    
+
+    
+    
+      <li><a href="/page2/">Nächste</a></li>
+    
+  </ul>
+</nav>
 
 
 
@@ -444,20 +436,36 @@ Browser basierte Variante. Die Gesundheitsämter loggen sich ein. Es gibt ein Su
         <div class="page__footer-follow">
   <ul class="social-icons">
     
-
+      <li><strong>Folgen:</strong></li>
     
 
-    <li><a href="/lagezentrum/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2020 Lagezentrum Coronavirus Reinickendorf. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2020 Jakob Schumacher. Möglich durch <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
 
     
-  <script src="/lagezentrum/assets/js/main.min.js"></script>
+  <script src="/assets/js/main.min.js"></script>
   <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
 
 

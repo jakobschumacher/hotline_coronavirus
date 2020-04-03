@@ -1,10 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/lagezentrum/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/lagezentrum/" rel="alternate" type="text/html" /><updated>2020-04-01T20:40:34+02:00</updated><id>http://localhost:4000/lagezentrum/feed.xml</id><title type="html">Lagezentrum Coronavirus Reinickendorf</title><subtitle>Hier wird das Lagezentrum Coronavirus des Bezirksamtes Reinickendorf beschrieben.
-</subtitle><author><name>Lagezentrum Coronavirus Reinickendorf</name></author><entry><title type="html">Begrüßung und Schulung</title><link href="http://localhost:4000/lagezentrum/infektionsepidemiologie/" rel="alternate" type="text/html" title="Begrüßung und Schulung" /><published>2020-03-21T08:00:00+01:00</published><updated>2020-03-21T08:00:00+01:00</updated><id>http://localhost:4000/lagezentrum/infektionsepidemiologie</id><content type="html" xml:base="http://localhost:4000/lagezentrum/infektionsepidemiologie/"></content><author><name>Lagezentrum Coronavirus Reinickendorf</name></author><category term="Überblick" /><summary type="html"></summary></entry><entry><title type="html">Hotline Datenaufnahme</title><link href="http://localhost:4000/lagezentrum/hotline/" rel="alternate" type="text/html" title="Hotline Datenaufnahme" /><published>2020-03-21T07:00:00+01:00</published><updated>2020-03-21T07:00:00+01:00</updated><id>http://localhost:4000/lagezentrum/hotline</id><content type="html" xml:base="http://localhost:4000/lagezentrum/hotline/">&lt;div class=&quot;cognito&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-01T20:59:50+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lagezentrum Coronavirus Reinickendorf</title><subtitle>Lagezentrum Coronavirus des Bezirksamtes Reinickendorf</subtitle><author><name>Your Name</name></author><entry><title type="html">Begrüßung und Schulung</title><link href="http://localhost:4000/infektionsepidemiologie/" rel="alternate" type="text/html" title="Begrüßung und Schulung" /><published>2020-03-21T08:00:00+01:00</published><updated>2020-03-21T08:00:00+01:00</updated><id>http://localhost:4000/infektionsepidemiologie</id><content type="html" xml:base="http://localhost:4000/infektionsepidemiologie/"></content><author><name>Your Name</name></author><category term="Überblick" /><summary type="html"></summary></entry><entry><title type="html">Hotline Datenaufnahme</title><link href="http://localhost:4000/hotline/" rel="alternate" type="text/html" title="Hotline Datenaufnahme" /><published>2020-03-21T07:00:00+01:00</published><updated>2020-03-21T07:00:00+01:00</updated><id>http://localhost:4000/hotline</id><content type="html" xml:base="http://localhost:4000/hotline/">&lt;div class=&quot;cognito&quot;&gt;
 &lt;script src=&quot;https://services.cognitoforms.com/s/qvH64gJwdEmt2b3lzPfBVw&quot;&gt;&lt;/script&gt;
 &lt;script&gt;Cognito.load(&quot;forms&quot;, { id: &quot;1&quot; });&lt;/script&gt;
-&lt;/div&gt;</content><author><name>Lagezentrum Coronavirus Reinickendorf</name></author><category term="Eingabe" /><summary type="html"></summary></entry><entry><title type="html">Abstrichmanagement</title><link href="http://localhost:4000/lagezentrum/abstrichmanagement/" rel="alternate" type="text/html" title="Abstrichmanagement" /><published>2020-03-21T06:00:00+01:00</published><updated>2020-03-21T06:00:00+01:00</updated><id>http://localhost:4000/lagezentrum/abstrichmanagement</id><content type="html" xml:base="http://localhost:4000/lagezentrum/abstrichmanagement/"></content><author><name>Lagezentrum Coronavirus Reinickendorf</name></author><category term="Eingabe" /><summary type="html"></summary></entry><entry><title type="html">Klärung der Zuständigkeit</title><link href="http://localhost:4000/lagezentrum/hotline-ablauf/" rel="alternate" type="text/html" title="Klärung der Zuständigkeit" /><published>2020-03-21T06:00:00+01:00</published><updated>2020-03-21T06:00:00+01:00</updated><id>http://localhost:4000/lagezentrum/hotline-ablauf</id><content type="html" xml:base="http://localhost:4000/lagezentrum/hotline-ablauf/">&lt;p&gt;Wer ist für welchen Sachverhalt zuständig?&lt;/p&gt;
-
-&lt;div class=&quot;mermaid&quot;&gt;
+&lt;/div&gt;</content><author><name>Your Name</name></author><category term="Eingabe" /><summary type="html"></summary></entry><entry><title type="html">Abstrichmanagement</title><link href="http://localhost:4000/abstrichmanagement/" rel="alternate" type="text/html" title="Abstrichmanagement" /><published>2020-03-21T06:00:00+01:00</published><updated>2020-03-21T06:00:00+01:00</updated><id>http://localhost:4000/abstrichmanagement</id><content type="html" xml:base="http://localhost:4000/abstrichmanagement/">&lt;div class=&quot;mermaid&quot;&gt;
 graph TD
      1[Erfassung des Sachverhalts]
      2a[Covid-Fall]
@@ -36,56 +33,7 @@ graph TD
      7a--Ja--&amp;gt;7b
      7a--Nein--&amp;gt;8a
      
-     
-&lt;/div&gt;</content><author><name>Lagezentrum Coronavirus Reinickendorf</name></author><category term="Hotline" /><category term="Schulung" /><summary type="html">Wer ist für welchen Sachverhalt zuständig?</summary></entry><entry><title type="html">Varianten für CGA App</title><link href="http://localhost:4000/lagezentrum/varianten-fuer-software/" rel="alternate" type="text/html" title="Varianten für CGA App" /><published>2020-03-21T06:00:00+01:00</published><updated>2020-03-21T06:00:00+01:00</updated><id>http://localhost:4000/lagezentrum/varianten-fuer-software</id><content type="html" xml:base="http://localhost:4000/lagezentrum/varianten-fuer-software/">&lt;h1 id=&quot;variante-a&quot;&gt;Variante A&lt;/h1&gt;
-&lt;p&gt;Browser basierte Variante. Die Gesundheitsämter loggen sich ein. Es gibt ein Suchfeld. In das Suchfeld gibt am die TAN des Covid-Falls an. Es erscheinen die Kontakte (UserID oder Alternativ: Name, Telefonnummer, Kontaktwert = Berechnung der Software). Diese Informationen lassen sich nach Excel, SurvNet, Sormas exportieren.&lt;/p&gt;
-
-&lt;h1 id=&quot;variante-b&quot;&gt;Variante B&lt;/h1&gt;
-&lt;p&gt;Browser basierte Variante. Hotline Variante. Wir erstellen eine Eingabemaske für mehrere Daten Siehe Hotline.&lt;/p&gt;
-
-&lt;h1 id=&quot;variante-c&quot;&gt;Variante C&lt;/h1&gt;
-&lt;p&gt;Verbindung zu einer bereits existierenden Software&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;SORMAS&lt;/li&gt;
-  &lt;li&gt;Go2Data&lt;/li&gt;
-  &lt;li&gt;SurvNet&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;variante-d&quot;&gt;Variante D&lt;/h1&gt;
-&lt;p&gt;Variante komplett ohne Gesundheitsämter. Ein Nutzer erkrankt und bekommt vom Labor eine Tan. Ein Nutzer kann diese Tan Corona Tracing App schickt Push Nachrichten, wenn ein Nutzer eingibt, dass der positiv ist und wann er erkrankt ist.&lt;/p&gt;
-
-&lt;h1 id=&quot;variante-e&quot;&gt;Variante E&lt;/h1&gt;
-&lt;p&gt;Wie Variante D mit verifizierter und nicht verifizierter Nachricht&lt;/p&gt;</content><author><name>Lagezentrum Coronavirus Reinickendorf</name></author><category term="Eingabe" /><summary type="html">Variante A Browser basierte Variante. Die Gesundheitsämter loggen sich ein. Es gibt ein Suchfeld. In das Suchfeld gibt am die TAN des Covid-Falls an. Es erscheinen die Kontakte (UserID oder Alternativ: Name, Telefonnummer, Kontaktwert = Berechnung der Software). Diese Informationen lassen sich nach Excel, SurvNet, Sormas exportieren.</summary></entry><entry><title type="html">Sequence (draft)</title><link href="http://localhost:4000/lagezentrum/user-journey/" rel="alternate" type="text/html" title="Sequence (draft)" /><published>2020-03-21T06:00:00+01:00</published><updated>2020-03-21T06:00:00+01:00</updated><id>http://localhost:4000/lagezentrum/user-journey</id><content type="html" xml:base="http://localhost:4000/lagezentrum/user-journey/">&lt;h1 id=&quot;base-variant&quot;&gt;Base variant&lt;/h1&gt;
-&lt;p&gt;Neither labs nor health authority participates&lt;/p&gt;
-
-&lt;div class=&quot;mermaid&quot;&gt;
-graph TD
-     1[Lab identifies covid-patient]
-     2[Fax to Health authority]
-     3[Covid-patient gets notified by lab]
-     4[Software-info to physician]
-     1--&amp;gt;2
-     1--&amp;gt;3
-     1--&amp;gt;4
-     5[Health authority contacts covid-patient]
-     6[Covid-patient enters I have covid]
-     7[Physicians informs patient]
-     2--&amp;gt;5
-     3--&amp;gt;6
-     4--&amp;gt;7
-     7--&amp;gt;6
-     6--&amp;gt;8A[Contact A]
-     6--&amp;gt;8B[Contact B]
-     6--&amp;gt;8C[Contact C]
-     6--&amp;gt;8D[Contact D]
-     6--&amp;gt;8E[Contact E]
-     5--&amp;gt;9[Covid-patient remembers contacts A,B,C]
-     9--&amp;gt;8A
-     9--&amp;gt;8B
-     9--&amp;gt;8C
-
-
-&lt;/div&gt;</content><author><name>Lagezentrum Coronavirus Reinickendorf</name></author><category term="Eingabe" /><summary type="html">Base variant Neither labs nor health authority participates</summary></entry><entry><title type="html">Laborbefunde</title><link href="http://localhost:4000/lagezentrum/lab/" rel="alternate" type="text/html" title="Laborbefunde" /><published>2020-03-21T05:00:00+01:00</published><updated>2020-03-21T05:00:00+01:00</updated><id>http://localhost:4000/lagezentrum/lab</id><content type="html" xml:base="http://localhost:4000/lagezentrum/lab/"></content><author><name>Lagezentrum Coronavirus Reinickendorf</name></author><category term="Eingabe" /><summary type="html"></summary></entry><entry><title type="html">Interne Fragen und Antworten</title><link href="http://localhost:4000/lagezentrum/faq/" rel="alternate" type="text/html" title="Interne Fragen und Antworten" /><published>2020-03-21T04:00:00+01:00</published><updated>2020-03-21T04:00:00+01:00</updated><id>http://localhost:4000/lagezentrum/faq</id><content type="html" xml:base="http://localhost:4000/lagezentrum/faq/"></content><author><name>Lagezentrum Coronavirus Reinickendorf</name></author><category term="Eingabe" /><summary type="html"></summary></entry><entry><title type="html">Überblick über die Bereiche</title><link href="http://localhost:4000/lagezentrum/bereiche/" rel="alternate" type="text/html" title="Überblick über die Bereiche" /><published>2020-03-21T03:00:00+01:00</published><updated>2020-03-21T03:00:00+01:00</updated><id>http://localhost:4000/lagezentrum/bereiche</id><content type="html" xml:base="http://localhost:4000/lagezentrum/bereiche/">&lt;h2 id=&quot;leitung-gesundheitsamt-90294---&quot;&gt;Leitung Gesundheitsamt (90294 - )&lt;/h2&gt;
+    &lt;/div&gt;</content><author><name>Your Name</name></author><category term="Eingabe" /><summary type="html">graph TD 1[Erfassung des Sachverhalts] 2a[Covid-Fall] 2b[Zuständigkeit GesiWeitergabe an 5030] 3a[Medizinisches Personal] 3b[Zuständigkeit GesiWeitergabe an 5030] 4a[Befund Auskunft] 4b[Zuständigkeit Fr. SackschweskiWeitergabe an 5069] 5a[Anfrage nicht zu Coronavirus] 5b[Zuständigkeit GesSekrWeitergabe an 5079] 6a[Anfrage zu UnterbringungNahrungsmittel] 6b[Zuständigkeit Dudey Weitergabe an ] 7a[Anfrage zu Ehrenamtlicher Tätigkeit] 7b[Zuständigkeit Ehrenamtsmangement Weitergabe an ] 8a[Eigene Zuständigkeit] 1--&amp;gt;2a 2a--Ja--&amp;gt;2b 2a--Nein--&amp;gt;3a 3a--Ja--&amp;gt;3b 3a--Nein--&amp;gt;4a 4a--Ja--&amp;gt;4b 4a--Nein--&amp;gt;5a 5a--Ja--&amp;gt;5b 5a--Nein--&amp;gt;6a 6a--Ja--&amp;gt;6b 6a--Nein--&amp;gt;7a 7a--Ja--&amp;gt;7b 7a--Nein--&amp;gt;8a</summary></entry><entry><title type="html">Laborbefunde</title><link href="http://localhost:4000/lab/" rel="alternate" type="text/html" title="Laborbefunde" /><published>2020-03-21T05:00:00+01:00</published><updated>2020-03-21T05:00:00+01:00</updated><id>http://localhost:4000/lab</id><content type="html" xml:base="http://localhost:4000/lab/"></content><author><name>Your Name</name></author><category term="Eingabe" /><summary type="html"></summary></entry><entry><title type="html">Interne Fragen und Antworten</title><link href="http://localhost:4000/faq/" rel="alternate" type="text/html" title="Interne Fragen und Antworten" /><published>2020-03-21T04:00:00+01:00</published><updated>2020-03-21T04:00:00+01:00</updated><id>http://localhost:4000/faq</id><content type="html" xml:base="http://localhost:4000/faq/"></content><author><name>Your Name</name></author><category term="Eingabe" /><summary type="html"></summary></entry><entry><title type="html">Überblick über die Bereiche</title><link href="http://localhost:4000/bereiche/" rel="alternate" type="text/html" title="Überblick über die Bereiche" /><published>2020-03-21T03:00:00+01:00</published><updated>2020-03-21T03:00:00+01:00</updated><id>http://localhost:4000/bereiche</id><content type="html" xml:base="http://localhost:4000/bereiche/">&lt;h2 id=&quot;leitung-gesundheitsamt-90294---&quot;&gt;Leitung Gesundheitsamt (90294 - )&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;Leitung und Organisation Gesundheitsamt&lt;/li&gt;
   &lt;li&gt;Weiterentwicklung Lagezentrum&lt;/li&gt;
@@ -216,4 +164,4 @@ graph TD
 &lt;ul&gt;
   &lt;li&gt;Erstellung von Schulungsmaterial für Hotlinemitarbeitende&lt;/li&gt;
   &lt;li&gt;Durchführung von Schulungen für neue Hotlinemitarbeitende&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Lagezentrum Coronavirus Reinickendorf</name></author><category term="Überblick" /><summary type="html">Leitung Gesundheitsamt (90294 - ) Leitung und Organisation Gesundheitsamt Weiterentwicklung Lagezentrum Leitung und Organisation Lagezentrum</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Your Name</name></author><category term="Überblick" /><summary type="html">Leitung Gesundheitsamt (90294 - ) Leitung und Organisation Gesundheitsamt Weiterentwicklung Lagezentrum Leitung und Organisation Lagezentrum</summary></entry></feed>

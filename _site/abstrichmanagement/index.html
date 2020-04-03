@@ -5,7 +5,7 @@
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
-<html lang="en" class="no-js">
+<html lang="de" class="no-js">
   <head>
     <meta charset="utf-8">
 
@@ -13,12 +13,14 @@
 <meta name="description" content="Hintergrundwissen zu Infektionsepidemiolgoie zu Sars-Cov-2 ">
 
 
+  <meta name="author" content="Your Name">
+
 
 <meta property="og:type" content="article">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="de_DE">
 <meta property="og:site_name" content="Lagezentrum Coronavirus Reinickendorf">
 <meta property="og:title" content="Abstrichmanagement">
-<meta property="og:url" content="http://localhost:4000/lagezentrum/abstrichmanagement/">
+<meta property="og:url" content="http://localhost:4000/abstrichmanagement/">
 
 
   <meta property="og:description" content="Hintergrundwissen zu Infektionsepidemiolgoie zu Sars-Cov-2 ">
@@ -35,8 +37,12 @@
 
 
 
+  
 
-<link rel="canonical" href="http://localhost:4000/lagezentrum/abstrichmanagement/">
+  
+
+
+<link rel="canonical" href="http://localhost:4000/abstrichmanagement/">
 
 
 
@@ -46,8 +52,8 @@
     "@context": "https://schema.org",
     
       "@type": "Person",
-      "name": null,
-      "url": "http://localhost:4000/lagezentrum/"
+      "name": "Jakob Schumacher",
+      "url": "http://localhost:4000/"
     
   }
 </script>
@@ -60,7 +66,7 @@
 <!-- end _includes/seo.html -->
 
 
-<link href="/lagezentrum/feed.xml" type="application/atom+xml" rel="alternate" title="Lagezentrum Coronavirus Reinickendorf Feed">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Lagezentrum Coronavirus Reinickendorf Feed">
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -70,7 +76,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="/lagezentrum/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/main.css">
 
 <!--[if IE]>
   <style>
@@ -87,6 +93,10 @@
   </style>
 <![endif]-->
 
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.8/mermaid.core.js"></script>
+  
 
 
     <!-- start custom head snippets -->
@@ -118,14 +128,16 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-        <a class="site-title" href="/lagezentrum/">
+        <a class="site-title" href="/">
           Lagezentrum Coronavirus Reinickendorf
           
         </a>
-        <ul class="visible-links"></ul>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/">Quick-Start Guide</a>
+            </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">Toggle menu</span>
+          <span class="visually-hidden">Menü ein-/ausschalten</span>
           <div class="navicon"></div>
         </button>
         <ul class="hidden-links hidden"></ul>
@@ -146,7 +158,7 @@
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Abstrichmanagement">
-    <meta itemprop="description" content="">
+    <meta itemprop="description" content="graph TD     1[Erfassung des Sachverhalts]     2a[Covid-Fall]     2b[Zuständigkeit GesiWeitergabe an 5030]     3a[Medizinisches Personal]     3b[Zuständigkeit GesiWeitergabe an 5030]     4a[Befund Auskunft]     4b[Zuständigkeit Fr. SackschweskiWeitergabe an 5069]     5a[Anfrage nicht zu  Coronavirus]     5b[Zuständigkeit GesSekrWeitergabe an 5079]     6a[Anfrage zu UnterbringungNahrungsmittel]     6b[Zuständigkeit Dudey Weitergabe an ]     7a[Anfrage zu Ehrenamtlicher Tätigkeit]     7b[Zuständigkeit Ehrenamtsmangement  Weitergabe an ]     8a[Eigene Zuständigkeit]               1--&gt;2a     2a--Ja--&gt;2b     2a--Nein--&gt;3a     3a--Ja--&gt;3b     3a--Nein--&gt;4a     4a--Ja--&gt;4b     4a--Nein--&gt;5a     5a--Ja--&gt;5b     5a--Nein--&gt;6a     6a--Ja--&gt;6b     6a--Nein--&gt;7a     7a--Ja--&gt;7b     7a--Nein--&gt;8a         ">
     <meta itemprop="datePublished" content="2020-03-21T06:00:00+01:00">
     
 
@@ -161,7 +173,39 @@
 
       <section class="page__content" itemprop="text">
         
-        
+        <div class="mermaid">
+graph TD
+     1[Erfassung des Sachverhalts]
+     2a[Covid-Fall]
+     2b[Zuständigkeit Gesi<br />Weitergabe an 5030]
+     3a[Medizinisches Personal]
+     3b[Zuständigkeit Gesi<br />Weitergabe an 5030]
+     4a[Befund Auskunft]
+     4b[Zuständigkeit Fr. Sackschweski<br />Weitergabe an 5069]
+     5a[Anfrage nicht zu <br /> Coronavirus]
+     5b[Zuständigkeit GesSekr<br />Weitergabe an 5079]
+     6a[Anfrage zu <br />Unterbringung<br />Nahrungsmittel]
+     6b[Zuständigkeit Dudey<br /> Weitergabe an ]
+     7a[Anfrage zu Ehrenamtlicher Tätigkeit]
+     7b[Zuständigkeit <br />Ehrenamtsmangement <br /> Weitergabe an ]
+     8a[Eigene Zuständigkeit]
+     
+     
+     1--&gt;2a
+     2a--Ja--&gt;2b
+     2a--Nein--&gt;3a
+     3a--Ja--&gt;3b
+     3a--Nein--&gt;4a
+     4a--Ja--&gt;4b
+     4a--Nein--&gt;5a
+     5a--Ja--&gt;5b
+     5a--Nein--&gt;6a
+     6a--Ja--&gt;6b
+     6a--Nein--&gt;7a
+     7a--Ja--&gt;7b
+     7a--Nein--&gt;8a
+     
+    </div>
 
         
       </section>
@@ -169,10 +213,29 @@
       <footer class="page__meta">
         
         
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#eingabe" class="page__taxonomy-item" rel="tag">Eingabe</a>
+    
+    </span>
+  </p>
+
+
 
 
         
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2020-03-21T06:00:00+01:00">March 21, 2020</time></p>
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Aktualisiert:</strong> <time datetime="2020-03-21T06:00:00+01:00">March 21, 2020</time></p>
         
       </footer>
 
@@ -181,12 +244,12 @@
       
   <nav class="pagination">
     
-      <a href="/lagezentrum/lab/" class="pagination--pager" title="Laborbefunde
-">Previous</a>
+      <a href="/lab/" class="pagination--pager" title="Laborbefunde
+">Vorherige</a>
     
     
-      <a href="/lagezentrum/hotline-ablauf/" class="pagination--pager" title="Klärung der Zuständigkeit
-">Next</a>
+      <a href="/hotline/" class="pagination--pager" title="Hotline Datenaufnahme
+">Nächste</a>
     
   </nav>
 
@@ -211,20 +274,36 @@
         <div class="page__footer-follow">
   <ul class="social-icons">
     
-
+      <li><strong>Folgen:</strong></li>
     
 
-    <li><a href="/lagezentrum/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2020 Lagezentrum Coronavirus Reinickendorf. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2020 Jakob Schumacher. Möglich durch <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
 
     
-  <script src="/lagezentrum/assets/js/main.min.js"></script>
+  <script src="/assets/js/main.min.js"></script>
   <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
 
 
