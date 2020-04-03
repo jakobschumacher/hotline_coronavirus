@@ -23,6 +23,14 @@ Es gibt einige Softwareprojekte, die die Ausbruchsbekämpfung unterstützen. Es 
 ## SurvNet/Octoware/ISGA usw.
 
 ## Sormas
+Zum Ausprobieren: https://musterstadt.sormas-oegd.de/sormas-ui/login 
+
+|---|--|
+|Vorteile|Nachteile|
+|---|--|
+|Ausgereift|Schulung notwendig|
+|Datenbank|Kein Anschreiben möglich|
+|Übersicht über Fälle/Kontakte möglich|Vielzahl an Variablen|
 
 ## Go.Data
 
