@@ -17,21 +17,5 @@ Diese Mini-Software ist bestenfalls im Alpha-Stadium und nicht von entsprechende
 ## Entwicklung
 Die Software befindet sich in aktiver Entwicklung. Fast täglich gibt es Verbesserungen. Eine Mitarbeit ist gerne gewünscht. Aktuell wird versucht eine Datenbank zu hinterlegen. 
 
-# Alternative Software Tools
-Es gibt einige Softwareprojekte, die die Ausbruchsbekämpfung unterstützen. Es gibt viele Softwareprodukte, die in Entwicklung sind.
-
-## SurvNet/Octoware/ISGA usw.
-
-## Sormas
-Zum Ausprobieren: https://musterstadt.sormas-oegd.de/sormas-ui/login 
-
-|---|--|
-|Vorteile|Nachteile|
-|---|--|
-|Ausgereift|Schulung notwendig|
-|Datenbank|Kein Anschreiben möglich|
-|Übersicht über Fälle/Kontakte möglich|Vielzahl an Variablen|
-
-## Go.Data
 
 
