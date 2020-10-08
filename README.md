@@ -1,9 +1,15 @@
-# lagezentrum-coronavirus
+# Schulung für die SARS-Cov-2 Fallermittlung 
 ## Einführung
+
+### Für wenn ist diese Seite?
+
+###  Ein Wort zur Warnung
+
+### Wo gibt es Hilfe?
 
 ## Grundlagen
 
-### Wo gibt es Hilfe?
+### Über den Virus
 
 ### Was ist Kontaktpersonen Nachverfolgung?
 
@@ -22,4 +28,11 @@
 ### Berechnung der Quarantänedauer für Kontaktpersonen 1
 
 ### Berechnung der infektiösen Zeit
+
+### Angaben zu Expositionsorten
+
+### Angaben zu Symptomen
+
+### Angaben zu Risikofaktoren
+
 
