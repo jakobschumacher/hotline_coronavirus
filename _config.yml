@@ -1,8 +1,8 @@
 
-title: Schulungszentrum Coronavirus
+title: SARS-Cov-2 Schulung
 
 remote_theme: pmarsceill/just-the-docs
-logo: "/assets/images/Logo.png"
+# logo: "/assets/images/Logo.png"
 
 
 # Define Jekyll collections
