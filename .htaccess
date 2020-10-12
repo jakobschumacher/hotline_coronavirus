@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Passwortgeschuetzter Bereich"
-AuthUserFile /mnt/web115/d2/62/5985862/htdocs/lagezentrum/assets/.htpasswd
-Require valid-user

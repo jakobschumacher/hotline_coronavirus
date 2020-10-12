@@ -1,4 +1,4 @@
-# Schulung für die SARS-Cov-2 Fallermittlung 
+# Schulung für die SARS-Cov-2 Fallermittlung
 ## Einführung
 
 ### Für wenn ist diese Seite?
@@ -34,5 +34,3 @@
 ### Angaben zu Symptomen
 
 ### Angaben zu Risikofaktoren
-
-
