@@ -4,11 +4,11 @@ Mini-Software zur Datenaufnahme und Bearbeitung von Covid-Fällen und Kontaktper
 # Abstrichscore
 
 ## Prinzip und Arbeitsweise
-Bei einem Person für die ein Abstrich evaluiert werden soll werden bestimmte Risikofaktoren erfasst. Für jeden Risikofaktor gibt es einen Punktwert. Alle Punktwerte werden zusammengezählt. Überschreitet der zusammengezählte Wert einen aktuell festgelegten Grenzwert wird ein Abstrich initiiert. Die Höhe des Grenzwertes wird festgelegt anhand der Abstrichkapazität. In diesem Repository ist ein ausdruckbares Dokument hinterlegt (Manueller Abstrichscore) und eine Survnet-Vorlage.
+Bei einem Person, für die ein Abstrich evaluiert werden soll, werden bestimmte Risikofaktoren erfasst. Für jeden Risikofaktor gibt es einen Punktwert. Alle Punktwerte werden zusammengezählt. Überschreitet der zusammengezählte Wert einen aktuell festgelegten Grenzwert, wird ein Abstrich initiiert. Die Höhe des Grenzwertes wird festgelegt anhand der Abstrichkapazität. In diesem Repository ist ein ausdruckbares Dokument hinterlegt (Manueller Abstrichscore) und eine Survnet-Vorlage.
 
 ## Installation
-Manueller Abstrichscore: Download des Word-Dokuments oder des PDF-Dokuments. 
-SurvNet-Vorlage: Download der SurvNet-Vorlage. Vorsicht, diese ist eine Word-Datei mit Makros, ein Download ist möglicherweise von den Sicherheitseinstellungen untersagt. Platzierung der Word-Vorlage in SurvNet Vorlagen Ordner. Zusätzlich muss die Datei ScoreIndex im Vorlagen Ordner gespeichert werden. Diese enthält den aktuellen Score-Wert.
+- Manueller Abstrichscore: Download des [Word-Dokuments](Abstrichscore_manuell.docx) oder des [PDF-Dokuments](Abstrichscore_manuell.pdf). 
+- SurvNet-Vorlage: Download der [SurvNet-Vorlage](https://github.com/jakobschumacher/hotline_coronavirus/blob/master/Covid%20-%20Abstrichscore%20-%20Vorstellung.dotm). Vorsicht, diese ist eine Word-Datei mit Makros, ein Download ist möglicherweise von den Sicherheitseinstellungen untersagt. Platzierung der Word-Vorlage in SurvNet Vorlagen Ordner. Zusätzlich muss die Datei [ScoreIndex](https://github.com/jakobschumacher/hotline_coronavirus/blob/master/ScoreIndex.txt) im Vorlagen Ordner gespeichert werden. Diese enthält den aktuellen Score-Wert.
 
 ## Voraussetzungen
 * SurvNet
@@ -31,7 +31,7 @@ In der Tabelle müssen die jeweiligen Pfade angepasst werden. Diese Pfade sind t
 Diese Mini-Software ist bestenfalls im Alpha-Stadium und nicht von entsprechenden Sicherheitsexperten überprüft. Die selbstgeschriebenen Makros können fehlerhaft sein und zu Abstürzen, Datenverlust oder ähnlichem führen. Möglicherweise kann es zu anderen Sicherheitsproblemen kommen, die wir nicht erahnen. 
 
 ## Entwicklung
-Der Absssssssssrichscore wird regelmäßig weiter entwickelt. Die Excel-Tabelle  befindet sich nicht mehr in aktiver Entwicklung. Weiterentwickelte Software wird in anderen Gesundheitsämtern eingesetzt. Eine Mitarbeit ist gerne gewünscht. 
+Der Abstrichscore wird regelmäßig weiter entwickelt. Die Excel-Tabelle  befindet sich nicht mehr in aktiver Entwicklung. Weiterentwickelte Software wird in anderen Gesundheitsämtern eingesetzt. Eine Mitarbeit ist gerne gewünscht. 
 
 
 
